@@ -1,3 +1,11 @@
+//HTML Events:
+//onchange	An HTML element has been changed
+//onclick	The user clicks an HTML element
+//onmouseover	The user moves the mouse over an HTML element
+//onmouseout	The user moves the mouse away from an HTML element
+//onkeydown	The user pushes a keyboard key
+//onload	The browser has finished loading the page
+
 window.alert("Hello, World!");
 
 document.write("Hello World");
@@ -23,4 +31,10 @@ document.write(4 * 4);
 function my_first_function() {                                    //Example comment
     var str = "This is the button text!";                         //expanding
     document.getElementById("Button_Text").innerHTML = str;       //multiple lines
+}
+
+function my_function() {
+    var sentence = "I am learning";
+    sentence += " a lot from this book!";         //+= is an alternate way to add variables together
+    document.getElementById("Concat").innerHTML = sentence;
 }
