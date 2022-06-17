@@ -33,8 +33,3 @@ function my_first_function() {                                    //Example comm
     document.getElementById("Button_Text").innerHTML = str;       //multiple lines
 }
 
-function my_function() {
-    var sentence = "I am learning";
-    sentence += " a lot from this book!";         //+= is an alternate way to add variables together
-    document.getElementById("Concat").innerHTML = sentence;
-}

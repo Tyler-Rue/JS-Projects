@@ -38,7 +38,10 @@ function negation() {
 var x = 5;
 x++;
 document.write(x);  
-//Can't get new line to work??
+
+document.write('<br>');
+document.write('<br>');
+
 var y = 5.25;
 y--;
 document.write(y);
